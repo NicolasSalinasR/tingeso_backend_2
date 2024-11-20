@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          default-label: main
+          uri: https://github.com/NicolasSalinasR/tingeso_backend_2 //solo los config
+          search-paths: config-data
+  application:
+    name: config-service
