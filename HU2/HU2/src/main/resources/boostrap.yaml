@@ -1,0 +1,15 @@
+spring:
+application:
+name: Hu1-Service
+cloud:
+config:
+enabled: true
+uri: http://localhost:8081
+datasource:
+url: jdbc:postgresql://localhost:5432/HU2
+
+username: postgres
+password: conan2084
+jpa:
+hibernate:
+ddl-auto: update
