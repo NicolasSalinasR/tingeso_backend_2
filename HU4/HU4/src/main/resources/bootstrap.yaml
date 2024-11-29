@@ -6,7 +6,7 @@ config:
 enabled: true
 uri: http://localhost:8081
 datasource:
-url: jdbc:postgresql://localhost:5432/HU3
+url: jdbc:postgresql://localhost:5432/HU4
 
 username: postgres
 password: conan2084
