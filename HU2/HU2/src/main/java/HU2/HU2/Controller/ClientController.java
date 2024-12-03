@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/Client")
+@RequestMapping("/HU2")
 @CrossOrigin(origins = "*")
 public class ClientController {
     @Autowired

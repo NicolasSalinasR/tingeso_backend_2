@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="37fd8c0f-9a2b-418e-9bd3-1cb095cfc6bd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../HU3/HU3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HU3/HU3/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HU3/HU3/src/main/java/HU3/HU3/Hu3Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HU3/HU3/src/main/java/HU3/HU3/Hu3Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HU3/HU3/src/main/resources/boostrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../HU3/HU3/src/main/resources/boostrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HU1/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/HU1/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HU2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HU2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HU2/HU2/src/main/java/HU2/HU2/Controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HU2/HU2/src/main/java/HU2/HU2/Controller/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-data/gateway-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-data/gateway-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-service/src/main/resources/bootstrap.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,9 +22,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2pOt4fxnPYRZ6Tv67GBEJZKS9ne" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,13 +33,30 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.Unnamed.executor": "Run",
+    "Spring Boot.java.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/nicol/Documents/GitHub/tingeso_backend_2/HU1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="java" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../../../Program Files/Java/jdk-23" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="HU1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="Hu1Application.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -49,6 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1732648759267</updated>
       <workItem from="1732648760400" duration="14000" />
+      <workItem from="1733201940430" duration="2109000" />
     </task>
     <servers />
   </component>
