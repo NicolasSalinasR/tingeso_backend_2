@@ -1,10 +1,10 @@
 spring:
   application:
     name: Hu1-Service
-  cloud:
-    config:
-      enabled: true
-      uri: http://localhost:8761
+  #  cloud:
+  #    config:
+  #      enabled: true
+  #      uri: http://localhost:8761
   datasource:
     url: jdbc:postgresql://localhost:5432/HU1
     username: postgres

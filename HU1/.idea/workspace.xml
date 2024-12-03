@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37fd8c0f-9a2b-418e-9bd3-1cb095cfc6bd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HU1/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/HU1/src/main/resources/bootstrap.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HU2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HU2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HU2/HU2/src/main/java/HU2/HU2/Controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HU2/HU2/src/main/java/HU2/HU2/Controller/ClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config-data/gateway-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-data/gateway-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eureka-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eureka-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-service/src/main/resources/bootstrap.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1732648759267</updated>
       <workItem from="1732648760400" duration="14000" />
-      <workItem from="1733201940430" duration="2109000" />
+      <workItem from="1733201940430" duration="2855000" />
     </task>
     <servers />
   </component>
