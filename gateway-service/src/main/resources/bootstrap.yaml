@@ -1,57 +1,7 @@
 spring:
   application:
-    name: gateway-service  # Nombre del servicio para el Gateway
-
+    name: gateway-service
   cloud:
     config:
-      enabled: false  # Si no usas un servidor de configuración, desactívalo para evitar errores
-      uri: http://localhost:8001  # Comenta o elimina si no estás usando un Config Server
-
-  main:
-    web-application-type: reactive  # Configura el tipo de aplicación reactiva para Gateway
-
-  server:
-    port: 3000  # El puerto donde correrá el Gateway
-
-  eureka:
-    client:
-      serviceUrl:
-        defaultZone: http://localhost:8761/eureka/  # URL del servidor Eureka
-      fetch-registry: true  # Habilita la obtención de servicios registrados en Eureka
-      register-with-eureka: true  # Permite que el Gateway se registre en Eureka
-
-    instance:
-      prefer-ip-address: true  # Usa la IP en lugar del hostname para registrar el servicio
-
-  gateway:
-    routes:
-      # Configuración para redirigir al servicio HU1-SERVICE
-      - id: HU1
-        uri: lb://HU1  # Nombre del servicio registrado en Eureka
-        predicates:
-          - Path=/HU1/**  # Redirige cualquier solicitud con este prefijo
-#        filters:
- #         - StripPrefix=1  # Remueve el prefijo /HU1 al redirigir al microservicio
-
-      # Puedes agregar más rutas aquí si tienes otros servicios
-      # Ejemplo para otro servicio:
-      # - id: another-service
-      #   uri: lb://ANOTHER-SERVICE
-      #   predicates:
-      #     - Path=/another/**
-      #   filters:
-      #     - StripPrefix=1
-
-logging:
-  level:
-    root: INFO  # Configuración general de nivel de logs
-    org.springframework.cloud.gateway: DEBUG  # Habilita logs detallados para el Gateway
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"  # Expone todos los endpoints de administración, útil para depuración
-  endpoint:
-    health:
-      show-details: always  # Muestra los detalles completos de salud del servicio
+      enabled: true
+      uri: http://localhost:8081
