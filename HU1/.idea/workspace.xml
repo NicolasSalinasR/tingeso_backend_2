@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37fd8c0f-9a2b-418e-9bd3-1cb095cfc6bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HU1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HU1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HU1/src/main/java/HU1/HU1/Controller/HU1Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/HU1/src/main/java/HU1/HU1/Controller/HU1Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HU1/src/main/java/HU1/HU1/Service/HU1Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/HU1/src/main/java/HU1/HU1/Service/HU1Service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HU1/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/HU1/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-service/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-data/gateway-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-data/gateway-service.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gateway-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-service/src/main/resources/bootstrap.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,6 +153,7 @@
       <workItem from="1733201940430" duration="2855000" />
       <workItem from="1733535246307" duration="4448000" />
       <workItem from="1733551042864" duration="1977000" />
+      <workItem from="1733791415412" duration="1396000" />
     </task>
     <servers />
   </component>

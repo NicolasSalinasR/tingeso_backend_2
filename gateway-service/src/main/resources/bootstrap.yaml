@@ -11,7 +11,7 @@ spring:
     web-application-type: reactive  # Configura el tipo de aplicación reactiva para Gateway
 
   server:
-    port: 8081  # El puerto donde correrá el Gateway
+    port: 3000  # El puerto donde correrá el Gateway
 
   eureka:
     client:
@@ -26,8 +26,8 @@ spring:
   gateway:
     routes:
       # Configuración para redirigir al servicio HU1-SERVICE
-      - id: hu1-service
-        uri: lb://HU1-SERVICE  # Nombre del servicio registrado en Eureka
+      - id: HU1
+        uri: lb://HU1  # Nombre del servicio registrado en Eureka
         predicates:
           - Path=/HU1/**  # Redirige cualquier solicitud con este prefijo
 #        filters:
