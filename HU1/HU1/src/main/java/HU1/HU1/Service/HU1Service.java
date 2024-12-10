@@ -1,4 +1,4 @@
-package HU1.HU1.Service;
+package main.java.HU1.HU1.Service;
 
 import org.springframework.stereotype.Service;
 

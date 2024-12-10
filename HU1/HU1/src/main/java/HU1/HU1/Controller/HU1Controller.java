@@ -1,6 +1,7 @@
 package HU1.HU1.Controller;
 
-import HU1.HU1.Service.HU1Service;
+
+import main.java.HU1.HU1.Service.HU1Service;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
